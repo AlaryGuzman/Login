@@ -3,7 +3,7 @@
 
 Alumno: Guzman Jimenez Alary
 
-## 📄 Descripción
+## Descripción
 
 Este proyecto consiste en la creación de un sistema de Login utilizando **HTML**, **CSS** y **JavaScript**, aplicando un efecto visual moderno tipo *Cristal Líquido* (Glassmorphism) y transiciones animadas. Además, se incluye un panel para **registro de usuarios**, validaciones básicas en el cliente y enlaces simulados a redes sociales. El diseño es responsivo y se optimiza visualmente usando Bootstrap (solo para layout si se desea).
 
@@ -30,10 +30,10 @@ Este proyecto consiste en la creación de un sistema de Login utilizando **HTML*
 
 ## Tecnologías Utilizadas
 
-✅ HTML5  
-✅ CSS3 (con Glassmorphism)  
-✅ JavaScript Puro  
-✅ Bootstrap (opcional, no obligatorio, solo para diseño)  
+* HTML5  
+* CSS3 (con Glassmorphism)  
+* JavaScript Puro  
+*Bootstrap (opcional, no obligatorio, solo para diseño)  
 
 ---
 
@@ -96,15 +96,15 @@ Ejemplo:
 
 ---
 
-## 📸 Capturas de Pantalla
+## Capturas de Pantalla
 
 ### Pantalla Inicial
 
-![Login](img/captura_login.png)
+![Login](capturas/captura1.png)
 
 ### Registro
 
-![Registro](img/captura_registro.png)
+![Registro](capturas/captura2.png)
 
 ---
 
@@ -115,8 +115,8 @@ Puedes visualizar el proyecto en funcionamiento en:
 
 ---
 
-## 🚀 Notas Finales
+## Notas Finales
 
-✔ Proyecto sin frameworks complejos.  
-✔ Ideal para prácticas de diseño moderno y validaciones simples.  
-✔ Recomendado para portafolios académicos o ejercicios de frontend.  
+* Proyecto sin frameworks complejos.  
+* Ideal para prácticas de diseño moderno y validaciones simples.  
+* Recomendado para portafolios académicos o ejercicios de frontend.  
