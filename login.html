@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+
+    <!-- Íconos de redes -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <!-- Estilos personalizados -->
+    <link rel="stylesheet" href="css/login.css">
+</head>
+
+<body>
+
+    <h2>Bienvenido - Inicia Sesión o Regístrate</h2>
+
+    <div class="contenedor-principal" id="contenedor-principal">
+
+        <!-- Registro -->
+        <div class="contenedor-formulario registrar">
+            <form action="#">
+                <h1>Crear Cuenta</h1>
+                <div class="redes-sociales">
+                    <a href="https://www.facebook.com/login.php"><i class="fab fa-facebook-f"></i></a>
+                    <a href="https://accounts.google.com/signin"><i class="fab fa-google-plus-g"></i></a>
+                    <a href="https://www.linkedin.com/login"><i class="fab fa-linkedin-in"></i></a>
+                </div>
+                <span>O usa tu correo electrónico para registrarte</span>
+                <input type="text" placeholder="Nombre completo" required />
+                <input type="email" placeholder="Correo electrónico" required />
+                <input type="password" placeholder="Contraseña" required />
+                <button type="button">Registrarse</button>
+            </form>
+        </div>
+
+        <!-- Ingreso -->
+        <div class="contenedor-formulario ingresar">
+            <form action="#">
+                <h1>Iniciar Sesión</h1>
+                <div class="redes-sociales">
+                    <a href="https://www.facebook.com/login.php"><i class="fab fa-facebook-f"></i></a>
+                    <a href="https://accounts.google.com/signin"><i class="fab fa-google-plus-g"></i></a>
+                    <a href="https://www.linkedin.com/login"><i class="fab fa-linkedin-in"></i></a>
+                </div>
+                <span>O ingresa con tu cuenta</span>
+                <input type="email" placeholder="Correo electrónico" required />
+                <input type="password" placeholder="Contraseña" required />
+                <a href="#">¿Olvidaste tu contraseña?</a>
+                <button type="button">Entrar</button>
+            </form>
+        </div>
+
+        <!-- Panel lateral animado -->
+        <div class="contenedor-lateral">
+            <div class="panel-lateral">
+                <div class="panel-izquierdo">
+                    <h1>¡Bienvenido de nuevo!</h1>
+                    <p>Para continuar, ingresa con tus datos</p>
+                    <button class="transparente" id="btn-iniciar">Iniciar Sesión</button>
+                </div>
+                <div class="panel-derecho">
+                    <h1>¡Hola, nuevo usuario!</h1>
+                    <p>Regístrate para comenzar tu experiencia con nosotros</p>
+                    <button class="transparente" id="btn-registrar">Registrarse</button>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+
+    <script src="js/login.js"></script>
+
+</body>
+
+</html>
