@@ -72,9 +72,9 @@ btnIniciar.addEventListener('click', () => {
 ```
 ### Explicación:
 
-Se capturan los botones de "Registrarse" y "Iniciar Sesión" mediante su id.
-Al hacer clic en cada botón, se agrega o elimina la clase .panel-activo al contenedor principal.
-Esta clase, gestionada por CSS, activa la animación de deslizamiento que muestra u oculta los formularios correspondientes.
+- Se capturan los botones de "Registrarse" y "Iniciar Sesión" mediante su id.
+- Al hacer clic en cada botón, se agrega o elimina la clase .panel-activo al contenedor principal.
+- Esta clase, gestionada por CSS, activa la animación de deslizamiento que muestra u oculta los formularios correspondientes.
 
 ### Validación del Registro (Campos Requeridos + Contraseña Segura)
 ```js
@@ -97,11 +97,11 @@ document.getElementById('btn-enviar-registro').addEventListener('click', () => {
 });
 ```
 ### Explicación:
-Se obtienen los valores de los campos del formulario de registro usando querySelector.
-**`.trim()`** elimina espacios en blanco al principio y al final, evitando errores de validación por espacios vacíos.
-Si algún campo está vacío, muestra un mensaje de alerta al usuario.
-Si la contraseña tiene menos de 8 caracteres, se muestra una advertencia para reforzar la seguridad.
-Si todo es correcto, se simula un registro exitoso con una alerta (en un caso real, aquí se enviaría la información al servidor).
+- Se obtienen los valores de los campos del formulario de registro usando querySelector.
+- **`.trim()`** elimina espacios en blanco al principio y al final, evitando errores de validación por espacios vacíos.
+- Si algún campo está vacío, muestra un mensaje de alerta al usuario.
+- Si la contraseña tiene menos de 8 caracteres, se muestra una advertencia para reforzar la seguridad.
+- Si todo es correcto, se simula un registro exitoso con una alerta (en un caso real, aquí se enviaría la información al servidor).
 
 ---
 
@@ -125,12 +125,12 @@ Si todo es correcto, se simula un registro exitoso con una alerta (en un caso re
 }
 ```
 ### Explicación:
-linear-gradient: Genera un degradado suave que simula el efecto de vidrio translúcido.
-backdrop-filter y -webkit-backdrop-filter: Aplican un difuminado al fondo junto a saturación, logrando el clásico efecto de Glassmorphism.
-border: Se define un borde semi-transparente para reforzar la apariencia de cristal.
-border-radius: Suaviza los bordes redondeados, mejorando la estética general.
-box-shadow: Genera una sombra proyectada que aporta profundidad al contenedor.
-El contenedor se adapta automáticamente con max-width para distintos tamaños de pantalla.
+- linear-gradient: Genera un degradado suave que simula el efecto de vidrio translúcido.
+- backdrop-filter y -webkit-backdrop-filter: Aplican un difuminado al fondo junto a saturación, logrando el clásico efecto de Glassmorphism.
+- border: Se define un borde semi-transparente para reforzar la apariencia de cristal.
+- border-radius: Suaviza los bordes redondeados, mejorando la estética general.
+- box-shadow: Genera una sombra proyectada que aporta profundidad al contenedor.
+- El contenedor se adapta automáticamente con max-width para distintos tamaños de pantalla.
 
 ---
 
