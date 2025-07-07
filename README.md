@@ -1,5 +1,5 @@
 
-# Login Responsive con Efecto Cristal Líquido 
+# Login con Efecto Cristal Líquido 
 
 Alumno: Guzman Jimenez Alary
 
