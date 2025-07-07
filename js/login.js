@@ -26,6 +26,7 @@ document.getElementById('btn-enviar-registro').addEventListener('click', () => {
     }
 
     alert('Registro exitoso');
+    contenedor.classList.remove("panel-activo");
     
 });
 
@@ -40,6 +41,6 @@ document.getElementById('btn-enviar-login').addEventListener('click', () => {
     }
 
     alert('Inicio de sesión exitoso');
-   
+   window.location.href = 'https://alaryguzman.github.io/Portafolio/';
 });
 
